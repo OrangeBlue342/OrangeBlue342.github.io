@@ -1,0 +1,54 @@
+
+        html {
+            box-sizing: border-box;
+        }
+        *, ::after, ::before {
+            box-sizing: inherit;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+
+        .background {
+            text-align: center;
+            margin:auto;
+            background-color:rgb(241, 247, 247);
+    max-width: 1000px;
+        }
+        .darkbackground {
+            background-color: rgb(0, 109, 7);
+            
+        max-width: 1000px;
+        text-align: center;
+        }
+        
+        .header {color: rgb(252, 133, 14);
+        margin: auto;}
+
+        .caption {
+            text-align: center; height: 30px;
+        }
+        
+        .table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+        }
+        .tableCell {
+            text-align: center; background-color: rgb(118, 198, 255); 
+            border: 2px solid rgb(240, 240, 165);
+            padding: 20px;
+        }
+    
+        .element {max-width: 900px; margin: auto; margin-top: 20px; font-family: Book Antiqua;}
+    
+
+.container {
+    overflow-x: auto;
+    margin:auto
+}
+

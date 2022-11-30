@@ -1,0 +1,54 @@
+.article {
+    font-family: Book Antiqua;
+    max-width: 900px;
+border-radius: 10px; padding: 5px; margin: 20px auto;
+}
+
+.article--article1 {
+
+color:rgb(1, 108, 17);
+background-color: rgb(150, 248, 255);
+border: 10px  groove rgb(35, 32, 169);
+}
+
+
+.article--article2 {
+    color:rgb(6, 149, 30); 
+background-color: blanchedalmond;
+border: 10px groove brown;
+}
+
+
+.article--article3 {
+    color:rgb(147, 121, 34); 
+background-color: rgb(255, 255, 159);
+border: 10px groove orange;
+}
+
+
+.article--article4 {
+    color: rgb(6, 149, 30);
+background-color: rgb(165, 251, 251);
+border: 10px groove rgb(45, 194, 244);
+}
+
+
+.article--article5 {
+    color: rgb(32, 150, 49); 
+background-color: rgb(203, 254, 128);
+border: 10px groove rgb(249, 180, 77);
+}
+
+
+.article--aricle6 {
+    color:rgb(133, 19, 19);
+background-color: rgb(165, 233, 233);
+border: 10px groove rgb(159, 7, 7);
+}
+
+
+.article--article7 {
+    color:blue; 
+background-color: aliceblue;
+border: 10px groove rgb(79, 149, 255);
+}
