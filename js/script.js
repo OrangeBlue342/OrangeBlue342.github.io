@@ -21,9 +21,10 @@ const onChangeBackgroundClick = () => {
     button.addEventListener("click", () => {
         if(button.innerText === "Włącz tryb ciemny") {
             button.innerText = "Wyłącz tryb ciemny";
+            body.classList.toggle("darkbackground");
         }});
 
-    body.classList.toggle("darkbackground");
+    
 }
 
 onChangeBackgroundClick();
