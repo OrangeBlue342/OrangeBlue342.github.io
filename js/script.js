@@ -8,6 +8,12 @@ welcome;
 const przycisk = document.querySelector(".przycisk")
 const header = document.querySelector (".header")
 
+const init = () => {
+    const body = document.querySelector(".background"); 
+    body.classList.toggle("darkbackground");
+}
+init();
+
 const onChangeBackgroundClick = () => {
     const body = document.querySelector(".background");
     const button = document.querySelector(".button")
@@ -22,11 +28,6 @@ const onChangeBackgroundClick = () => {
 
 onChangeBackgroundClick();
 
-const init = () => {
-    const body = document.querySelector(".background"); 
-    body.classList.toggle("darkbackground");
-}
-init();
 
 przycisk.addEventListener("click", () => {
     header.remove();
